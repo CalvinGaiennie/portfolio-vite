@@ -1,4 +1,4 @@
-import styles from "./technologies.module.css";
+import styles from "./Technologies.module.css";
 
 function Technologies() {
   return (
