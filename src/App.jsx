@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
+import Education from "./components/Education";
+import Work from "./components/Work";
 
 function App() {
   return (
@@ -10,10 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />}>
-            <Route index element={<p>School</p>} />
-            <Route path="work" element={<p>Work</p>} />
-            <Route path="school" element={<p>School</p>} />
-            <Route path="form" element={<p>Form</p>} />
+            <Route index element={<Work />} />
+            <Route path="work" element={<Work />} />
+            <Route path="school" element={<Education />} />
           </Route>
           <Route path="/projects" element={<Projects />} />
         </Routes>
