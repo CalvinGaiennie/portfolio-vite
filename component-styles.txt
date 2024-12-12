@@ -1,0 +1,34 @@
+CSS to JSX Component Mapping
+===========================
+
+1. Introduction.module.css
+   - Affects: Introduction.jsx
+   - Styles: Links container, resume button
+
+2. PageNav.module.css
+   - Affects: PageNav.jsx
+   - Styles: Main navigation bar, sticky positioning, navigation links
+
+3. AppNav.module.css
+   - Affects: AppNav.jsx
+   - Styles: Secondary navigation for Experience section, navigation links
+
+4. Technologies.module.css
+   - Affects: Technologies.jsx
+   - Styles: Flex layout for technology icons and descriptions
+
+5. App.css
+   - Affects: App.jsx
+   - Styles: Global styles (currently commented out)
+
+6. index.css
+   - Affects: Global styles
+   - Imported in: main.jsx
+   - Note: Currently empty, could be used for global CSS variables and reset styles
+
+Current CSS Module Usage:
+------------------------
+- Most components use CSS Modules (.module.css) for component-scoped styling
+- Styles are imported using: import styles from './ComponentName.module.css'
+- Classes are applied using: className={styles.classname} 
+

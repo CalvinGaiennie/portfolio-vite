@@ -1,0 +1,4 @@
+.app {
+  padding-left: clamp(1rem, 20vw, 30vw);
+  padding-right: clamp(1rem, 20vw, 30vw);
+}
