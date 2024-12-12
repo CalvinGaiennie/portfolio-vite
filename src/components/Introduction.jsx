@@ -2,9 +2,10 @@ import styles from "./Introduction.module.css";
 
 function Introduction() {
   return (
-    <div className="introduction">
-      <h1>Introduction</h1>
-      <p>Calvin Gaiennie. Software Developer. Lafayette Louisiana</p>
+    <div className={styles.introduction}>
+      <h1>Calvin Gaiennie</h1>
+      <p>Software Developer. </p>
+      <p>Lafayette Louisiana</p>
       <div className={styles.links}>
         <a
           href="/CalvinGaiennie_Resume_11-24-24.pdf"
@@ -37,9 +38,9 @@ function Introduction() {
           rel="noopener noreferrer"
         >
           <img
+            className={styles.img}
             src="/imgs/github.png"
             alt="GitHub logo"
-            style={{ width: "30px", height: "auto" }}
           />
         </a>
         <a
@@ -48,9 +49,9 @@ function Introduction() {
           rel="noopener noreferrer"
         >
           <img
+            className={styles.img}
             src="/imgs/linkedin.png"
             alt="LinkedIn logo"
-            style={{ width: "30px", height: "auto" }}
           />
         </a>
       </div>
