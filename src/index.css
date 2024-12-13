@@ -59,3 +59,27 @@ h3 {
 h4 {
   font-size: var(--fs-xl);
 }
+
+:root {
+  /* Primary Colors */
+  --primary-color: #007bff;
+  --primary-dark: #0056b3;
+  --primary-light: #3395ff;
+
+  /* Neutral Colors */
+  --background: #ffffff;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --background-active: #e9ecef;
+
+  /* Status Colors */
+  --success: #4caf50;
+  --error: #f44336;
+  --warning: #ff9800;
+}
+
+/* Base styles */
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+}

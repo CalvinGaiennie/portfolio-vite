@@ -7,7 +7,7 @@ function Technologies() {
         <h1>Technologies</h1>
 
         <div className={styles.mainTech}>
-          <h2>Main Tech</h2>
+          <h3>Main Tech</h3>
           <div className={styles.flex}>
             <div>
               <img
@@ -44,7 +44,7 @@ function Technologies() {
           </div>
         </div>
         <div className={styles.otherTech}>
-          <h2>Other Tech</h2>
+          <h3>Other Tech</h3>
           <div className={styles.flex}>
             <div>
               <img

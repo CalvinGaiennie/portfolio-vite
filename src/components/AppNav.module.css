@@ -26,5 +26,9 @@
 }
 
 .nav a:global(.active) {
-  background-color: var(--color-dark--0);
+  background-color: var(--background-active);
+}
+
+.nav li {
+  padding: 0.1rem 2rem;
 }

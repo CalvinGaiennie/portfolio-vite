@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  border-bottom: 1px solid var(--text-secondary);
+  padding: 1rem;
+}
+
+.timeline {
+  margin-top: 1rem;
+  border: 1px solid var(--text-secondary);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

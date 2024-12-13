@@ -1,5 +1,11 @@
+import Timeline from "./Timeline";
+
 function Education() {
-  return <div>Education</div>;
+  return (
+    <div>
+      <Timeline title="Education" content="Education" />
+    </div>
+  );
 }
 
 export default Education;
