@@ -23,8 +23,20 @@ function ProjectCard({
           ))}
         </div>
         <div className={styles.statusContainer}>
-          <p className={styles.status}>{status}</p>
-          <p className={styles.hostingStatus}>{hostingStatus}</p>
+          <p
+            className={`${styles.status} ${
+              status === "In Progress" ? styles.inProgress : styles.completed
+            }`}
+          >
+            {status}
+          </p>
+          <p
+            className={`${styles.hostingStatus} ${
+              hostingStatus === "Live" ? styles.live : styles.notLive
+            }`}
+          >
+            {hostingStatus}
+          </p>
         </div>
       </a>
     </div>

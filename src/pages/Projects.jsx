@@ -38,7 +38,7 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "CSS", "JavaScript"]}
+          techStack={["React", "JavaScript", "CSS"]}
         />
         <ProjectCard
           title={"Recipe Sharer"}
@@ -48,7 +48,7 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Not Yet Hosted"}
-          techStack={["React", "CSS", "JavaScript"]}
+          techStack={["React", "JavaScript", "CSS"]}
         />
         <ProjectCard
           title={"This Portfolio"}
@@ -58,7 +58,7 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "CSS", "JavaScript"]}
+          techStack={["React", "JavaScript", "CSS"]}
         />
       </div>
     </div>

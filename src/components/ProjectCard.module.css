@@ -9,20 +9,13 @@
   color: inherit;
 }
 
-.status {
-  border: 1px solid #666;
-  border-radius: 5px;
-  width: fit-content;
-  padding: 0.2rem 0.5rem;
-  background-color: var(--button-gray);
-}
-
 .hostingStatus {
   border: 1px solid #666;
   border-radius: 5px;
   width: fit-content;
   padding: 0.2rem 0.5rem;
   background-color: var(--button-gray);
+  color: var(--text-primary);
 }
 
 .statusContainer {
@@ -30,6 +23,13 @@
   gap: 0.5rem;
 }
 
+.status {
+  border: 1px solid #666;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--button-gray);
+}
 .techStackContainer {
   display: flex;
   flex-wrap: wrap;
@@ -44,4 +44,20 @@
   font-size: 0.5rem;
   font-weight: 900;
   background-color: var(--background-active);
+}
+
+.live {
+  background-color: var(--green);
+}
+
+.notLive {
+  background-color: var(--red);
+}
+
+.inProgress {
+  background-color: var(--yellow);
+}
+
+.completed {
+  background-color: var(--green);
 }

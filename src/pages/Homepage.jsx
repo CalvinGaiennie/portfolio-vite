@@ -9,7 +9,7 @@ function Homepage() {
     <div>
       <PageNav />
       <Introduction />
-      <Experience />
+      {/* <Experience /> */}
       <ProjectsPreview />
       <Technologies />
     </div>
