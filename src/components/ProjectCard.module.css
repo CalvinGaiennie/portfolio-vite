@@ -1,3 +1,47 @@
 .projectCard {
   padding: 1rem;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.projectCard a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.status {
+  border: 1px solid #666;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--button-gray);
+}
+
+.hostingStatus {
+  border: 1px solid #666;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--button-gray);
+}
+
+.statusContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.techStackContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  width: fit-content;
+  font-size: 0.5rem;
+  font-weight: 900;
+  background-color: var(--background-active);
 }

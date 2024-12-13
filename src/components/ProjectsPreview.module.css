@@ -8,3 +8,9 @@
   text-decoration: none;
   color: var(--text-primary);
 }
+
+.projectsPreviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

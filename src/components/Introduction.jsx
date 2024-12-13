@@ -5,11 +5,12 @@ function Introduction() {
     <div className={styles.introduction}>
       <h1>Calvin Gaiennie</h1>
       <p>Software Developer. </p>
-      <p>Lafayette Louisiana</p>
+      <p>Lafayette, Louisiana</p>
       <div className={styles.links}>
         <a
           href="/CalvinGaiennie_Resume_11-24-24.pdf"
-          download="CalvinGaiennie_Resume_11-24-24.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className={styles.resume}
         >
           Resume
@@ -55,7 +56,8 @@ function Introduction() {
           />
         </a>
       </div>
-      <p>Contact Me: Calvingaiennie@gmail.com</p>
+      <p>Email: Calvingaiennie@gmail.com</p>
+      <p>Phone: 337-945-0939</p>
     </div>
   );
 }
