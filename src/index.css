@@ -68,6 +68,10 @@ h4 {
   --background-active: #e9ecef;
   --button-gray-light: #dee2e6;
   --button-gray: #9299a0;
+
+  --green: #008000;
+  --yellow: #ffd700;
+  --red: #ff0000;
 }
 
 /* Base styles */
