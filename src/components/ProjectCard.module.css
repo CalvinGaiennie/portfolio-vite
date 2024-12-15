@@ -46,7 +46,7 @@
   background-color: var(--background-active);
 }
 
-.live {
+/* .live {
   background-color: var(--green);
 }
 
@@ -60,4 +60,4 @@
 
 .completed {
   background-color: var(--green);
-}
+} */

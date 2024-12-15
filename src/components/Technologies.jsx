@@ -7,7 +7,7 @@ function Technologies() {
         <h1>Technologies</h1>
 
         <div className={styles.mainTech}>
-          <h3>Main Tech</h3>
+          {/* <h3>Main Tech</h3> */}
           <div className={styles.flex}>
             <div>
               <img
@@ -41,11 +41,6 @@ function Technologies() {
               />
               <p>CSS</p>
             </div>
-          </div>
-        </div>
-        <div className={styles.otherTech}>
-          <h3>Other Tech</h3>
-          <div className={styles.flex}>
             <div>
               <img
                 src="/imgs/nodejs.webp" // Updated to reference the public folder
@@ -64,11 +59,17 @@ function Technologies() {
             </div>
           </div>
         </div>
-        <p>
+        {/* <div className={styles.otherTech}>
+          <h3>Other Tech</h3>
+          <div className={styles.flex}>
+            
+          </div>
+        </div> */}
+        {/* <p>
           Maybe sort this by languages, frameworks, backend, databases, etc.
           like 6:39 https://www.youtube.com/watch?v=mL5FM8sktz4 8:35
           https://youtube.com/watch?v=ufmYccZ5E8M
-        </p>
+        </p> */}
       </div>
     </div>
   );
