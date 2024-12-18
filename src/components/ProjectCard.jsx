@@ -12,9 +12,15 @@ function ProjectCard({
   return (
     <div className={styles.projectCard}>
       <a href={link} target="_blank" rel="noopener noreferrer">
+        {image && (
+          <img
+            src={image}
+            alt="Project Image"
+            className={styles.projectImage}
+          />
+        )}
         <h3>{title}</h3>
         <p>{description}</p>
-        {/* <img src={projectImage} alt="Project Image" /> */}
         <div className={styles.techStackContainer}>
           {techStack.map((tech) => (
             <p key={tech} className={styles.tech}>
