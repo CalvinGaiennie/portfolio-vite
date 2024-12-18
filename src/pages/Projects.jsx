@@ -60,6 +60,15 @@ function Projects() {
           hostingStatus={"Live"}
           techStack={["React", "JavaScript", "CSS"]}
         />
+        <ProjectCard
+          title={"FetchMoreKennels Landing Page"}
+          description={"I am building a website for my cousin's buisiness."}
+          // img={projectImage}
+          status={"In Progress"}
+          link={"https://fetchmorekennels.netlify.app/"}
+          hostingStatus={"Live"}
+          techStack={["React", "JavaScript", "CSS"]}
+        />
       </div>
     </div>
   );
