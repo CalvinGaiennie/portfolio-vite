@@ -41,16 +41,6 @@ function Projects() {
           techStack={["React", "JavaScript", "CSS"]}
         />
         <ProjectCard
-          title={"Recipe Sharer"}
-          description={
-            "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings."
-          }
-          // img={projectImage}
-          status={"In Progress"}
-          hostingStatus={"Not Yet Hosted"}
-          techStack={["React", "JavaScript", "CSS"]}
-        />
-        <ProjectCard
           title={"This Portfolio"}
           description={
             "This portfolio is a project that I am using to showcase my skills and projects."
@@ -67,6 +57,16 @@ function Projects() {
           status={"In Progress"}
           link={"https://fetchmorekennels.netlify.app/"}
           hostingStatus={"Live"}
+          techStack={["React", "JavaScript", "CSS"]}
+        />
+        <ProjectCard
+          title={"Recipe Sharer"}
+          description={
+            "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings."
+          }
+          // img={projectImage}
+          status={"In Progress"}
+          hostingStatus={"Not Yet Hosted"}
           techStack={["React", "JavaScript", "CSS"]}
         />
       </div>
