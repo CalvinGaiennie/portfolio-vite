@@ -29,17 +29,7 @@ function Projects() {
           techStack={["JavaScript", "HTML", "CSS"]}
           // img={projectImage}
         />
-        <ProjectCard
-          title={"Learn Blackjack"}
-          description={
-            "A simple blackjack game that allows you to see what move perfect strategy would recommend, allowing the user to learn perfect strategy while activly playing the game."
-          }
-          link={"https://learn-blackjack.netlify.app/"}
-          // img={projectImage}
-          status={"In Progress"}
-          hostingStatus={"Live"}
-          techStack={["React", "JavaScript", "CSS"]}
-        />
+
         <ProjectCard
           title={"This Portfolio"}
           description={
@@ -56,6 +46,17 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           link={"https://fetchmorekennels.netlify.app/"}
+          hostingStatus={"Live"}
+          techStack={["React", "JavaScript", "CSS"]}
+        />
+        <ProjectCard
+          title={"Learn Blackjack"}
+          description={
+            "A simple blackjack game that allows you to see what move perfect strategy would recommend, allowing the user to learn perfect strategy while activly playing the game."
+          }
+          link={"https://learn-blackjack.netlify.app/"}
+          // img={projectImage}
+          status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React", "JavaScript", "CSS"]}
         />
