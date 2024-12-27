@@ -73,6 +73,7 @@ function Projects() {
             "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings."
           }
           // img={projectImage}
+          link={"https://cgrecipes.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Not Yet Hosted"}
           techStack={["React"]}
