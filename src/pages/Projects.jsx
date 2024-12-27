@@ -85,7 +85,7 @@ function Projects() {
           link={"https://cgmusic.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React"]}
+          techStack={["Javascript", "HTML", "CSS"]}
           // img={projectImage}
         />
       </div>

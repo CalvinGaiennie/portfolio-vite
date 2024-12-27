@@ -11,20 +11,21 @@ function Technologies() {
           <div className={styles.flex}>
             <div>
               <img
-                src="/imgs/js.webp" // Updated to reference the public folder
-                alt="JS logo"
-                style={{ width: "30px", height: "auto" }}
-              />
-              <p>JavaScript</p>
-            </div>
-            <div>
-              <img
                 src="/imgs/react.png" // Updated to reference the public folder
                 alt="React logo"
                 style={{ width: "30px", height: "auto" }}
               />
               <p>React</p>
             </div>
+            <div>
+              <img
+                src="/imgs/js.webp" // Updated to reference the public folder
+                alt="JS logo"
+                style={{ width: "30px", height: "auto" }}
+              />
+              <p>JavaScript</p>
+            </div>
+
             <div>
               <img
                 src="/imgs/html.webp" // Updated to reference the public folder
@@ -41,7 +42,7 @@ function Technologies() {
               />
               <p>CSS</p>
             </div>
-            <div>
+            {/* <div>
               <img
                 src="/imgs/nodejs.webp" // Updated to reference the public folder
                 alt="NodeJS logo"
@@ -56,7 +57,7 @@ function Technologies() {
                 style={{ width: "30px", height: "auto" }}
               />
               <p>MongoDB</p>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div className={styles.otherTech}>
