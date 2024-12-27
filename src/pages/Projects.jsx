@@ -24,6 +24,7 @@ function Projects() {
             "Express",
             "MongoDB",
           ]}
+          todo={"Fix the backend and get it hosted."}
         />
         <ProjectCard
           title={"Music Resources"}
@@ -35,6 +36,7 @@ function Projects() {
           hostingStatus={"Live"}
           techStack={["React"]}
           // img={projectImage}
+          todo={""}
         />
 
         <ProjectCard
@@ -46,6 +48,7 @@ function Projects() {
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React"]}
+          todo={""}
         />
         <ProjectCard
           title={"FetchMoreKennels Landing Page"}
@@ -55,6 +58,7 @@ function Projects() {
           link={"https://fetchmorekennels.netlify.app/"}
           hostingStatus={"Live"}
           techStack={["React"]}
+          todo={""}
         />
         <ProjectCard
           title={"Learn Blackjack"}
@@ -66,17 +70,21 @@ function Projects() {
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React"]}
+          todo={
+            "Add in the strategy suggestions and fix the functionality for aces."
+          }
         />
         <ProjectCard
           title={"Recipe Sharer v.1"}
           description={
-            "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings. Next step will be to add backend and allow users to add their own recipes."
+            "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings. "
           }
           // img={projectImage}
           link={"https://cgrecipes.netlify.app/"}
-          status={"Complete"}
+          status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React"]}
+          todo={"Add backend to allow users to add their own recipes."}
         />
         <ProjectCard
           title={"Music Resources Vanilla JS (Origional Version)"}
@@ -84,10 +92,11 @@ function Projects() {
             "A website containing resources for musicians and some basic lessons for guitar players."
           }
           link={"https://cgmusic.netlify.app/"}
-          status={"Currently Abandoned"}
+          status={"Project Defunct"}
           hostingStatus={"Live"}
           techStack={["Javascript", "HTML", "CSS"]}
           // img={projectImage}
+          todo={""}
         />
       </div>
     </div>

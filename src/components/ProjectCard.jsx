@@ -8,6 +8,7 @@ function ProjectCard({
   status,
   hostingStatus,
   techStack,
+  todo,
 }) {
   return (
     <div className={styles.projectCard}>
@@ -21,6 +22,14 @@ function ProjectCard({
         )}
         <h3>{title}</h3>
         <p>{description}</p>
+        {todo ? (
+          <div>
+            <p>To Do: {todo}</p>
+          </div>
+        ) : (
+          <></>
+        )}
+
         <div className={styles.techStackContainer}>
           {techStack.map((tech) => (
             <p key={tech} className={styles.tech}>
