@@ -68,14 +68,14 @@ function Projects() {
           techStack={["React"]}
         />
         <ProjectCard
-          title={"Recipe Sharer"}
+          title={"Recipe Sharer v.1"}
           description={
-            "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings."
+            "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings. Next step will be to add backend and allow users to add their own recipes."
           }
           // img={projectImage}
           link={"https://cgrecipes.netlify.app/"}
-          status={"In Progress"}
-          hostingStatus={"Not Yet Hosted"}
+          status={"Complete"}
+          hostingStatus={"Live"}
           techStack={["React"]}
         />
         <ProjectCard
@@ -84,7 +84,7 @@ function Projects() {
             "A website containing resources for musicians and some basic lessons for guitar players."
           }
           link={"https://cgmusic.netlify.app/"}
-          status={"In Progress"}
+          status={"Currently Abandoned"}
           hostingStatus={"Live"}
           techStack={["Javascript", "HTML", "CSS"]}
           // img={projectImage}
