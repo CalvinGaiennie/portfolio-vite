@@ -1,13 +1,13 @@
 import PageNav from "../components/PageNav";
 import ProjectCard from "../components/ProjectCard";
-import styles from "../components/ProjectCard.module.css";
+import styles from "./Projects.module.css";
 
 function Projects() {
   return (
     <div>
       <PageNav />
       <h1>Projects</h1>
-      <div className={styles.projectsPreview}>
+      <div className={styles.projectsDiv}>
         <ProjectCard
           title={"Order Quality Reporting System"}
           description={
