@@ -16,17 +16,24 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Not Yet Hosted"}
-          techStack={["JavaScript", "CSS", "Node.js", "Express", "MongoDB"]}
+          techStack={[
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Node.js",
+            "Express",
+            "MongoDB",
+          ]}
         />
         <ProjectCard
           title={"Music Resources"}
           description={
             "A website containing resources for musicians and some basic lessons for guitar players."
           }
-          link={"https://cgmusic.netlify.app/"}
+          link={"https://cgmusicv2.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["JavaScript", "HTML", "CSS"]}
+          techStack={["React"]}
           // img={projectImage}
         />
 
@@ -38,7 +45,7 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "JavaScript", "CSS"]}
+          techStack={["React"]}
         />
         <ProjectCard
           title={"FetchMoreKennels Landing Page"}
@@ -47,7 +54,7 @@ function Projects() {
           status={"In Progress"}
           link={"https://fetchmorekennels.netlify.app/"}
           hostingStatus={"Live"}
-          techStack={["React", "JavaScript", "CSS"]}
+          techStack={["React"]}
         />
         <ProjectCard
           title={"Learn Blackjack"}
@@ -58,7 +65,7 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "JavaScript", "CSS"]}
+          techStack={["React"]}
         />
         <ProjectCard
           title={"Recipe Sharer"}
@@ -68,7 +75,18 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Not Yet Hosted"}
-          techStack={["React", "JavaScript", "CSS"]}
+          techStack={["React"]}
+        />
+        <ProjectCard
+          title={"Music Resources Vanilla JS (Origional Version)"}
+          description={
+            "A website containing resources for musicians and some basic lessons for guitar players."
+          }
+          link={"https://cgmusic.netlify.app/"}
+          status={"In Progress"}
+          hostingStatus={"Live"}
+          techStack={["React"]}
+          // img={projectImage}
         />
       </div>
     </div>

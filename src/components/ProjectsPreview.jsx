@@ -20,13 +20,15 @@ function ProjectsPreview() {
           techStack={["JavaScript", "CSS", "Node.js", "Express", "MongoDB"]}
         />
         <ProjectCard
-          title="Music Resources"
-          description="A website containing resources for musicians and some basic lessons for guitar players."
-          // img={projectImage}
-          link={"https://cgmusic.netlify.app/"}
+          title={"Music Resources"}
+          description={
+            "A website containing resources for musicians and some basic lessons for guitar players."
+          }
+          link={"https://cgmusicv2.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["JavaScript", "HTML", "CSS"]}
+          techStack={["React", "JavaScript", "CSS"]}
+          // img={projectImage}
         />
       </div>
     </div>
