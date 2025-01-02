@@ -22,7 +22,9 @@ function CurrentWork() {
       <h2>Other To Do&#39;s</h2>
       <p>Build major projects in C# and Python.</p>
       <p>Make all Projects Full stack.</p>
-      <p>Complete some better projects and take off the simple boring ones.</p>
+      <p>
+        Complete some better projects and take off the simple and boring ones.
+      </p>
       <p>Add photos of projects.</p>
       {/* <h2>Overarching Goal</h2>
       <p>
