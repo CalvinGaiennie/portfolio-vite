@@ -10,6 +10,9 @@ function PageNav() {
         <li>
           <NavLink to="/Projects">Projects</NavLink>
         </li>
+        <li>
+          <NavLink to="/Current">Current Work</NavLink>
+        </li>
       </ul>
     </nav>
   );

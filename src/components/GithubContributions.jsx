@@ -5,11 +5,12 @@ function GithubContributions() {
   const [commitsPageActive, setCommitsPageActive] = useState(false);
   return (
     <div>
-      <h2>Github Contributions</h2>
-      <button onClick={() => setCommitsPageActive(!commitsPageActive)}>
+      <h2>Recent Github Contributions</h2>
+      {/* <button onClick={() => setCommitsPageActive(!commitsPageActive)}>
         {commitsPageActive ? "Hide Commits" : "Show Commits"}
       </button>
-      {commitsPageActive && <CommitsPage />}
+      {commitsPageActive && <CommitsPage />} */}
+      <CommitsPage />
     </div>
   );
 }

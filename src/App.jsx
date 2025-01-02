@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
 import Education from "./components/Education";
 import Work from "./components/Work";
+import Current from "./pages/Current";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="school" element={<Education />} />
           </Route>
           <Route path="/projects" element={<Projects />} />
+          <Route path="/Current" element={<Current />} />
         </Routes>
       </BrowserRouter>
     </div>
