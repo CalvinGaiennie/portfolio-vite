@@ -1,0 +1,13 @@
+.eventCard {
+  display: flex;
+  align-items: center;
+}
+
+.eventCardText * {
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.eventLogo {
+  height: 100px;
+}

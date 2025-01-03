@@ -52,7 +52,7 @@ function Projects() {
         />
         <ProjectCard
           title={"FetchMoreKennels Landing Page"}
-          description={"I am building a website for my cousin's buisiness."}
+          description={"I am building a website for my cousin's  business."}
           // img={projectImage}
           status={"In Progress"}
           link={"https://fetchmorekennels.netlify.app/"}

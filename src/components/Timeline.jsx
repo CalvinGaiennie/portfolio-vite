@@ -5,7 +5,7 @@ function Timeline({ title, content }) {
     <div className={styles.timeline}>
       <div>
         <h1 className={styles.title}>{title}</h1>
-        <p>{content}</p>
+        <div>{content}</div>
       </div>
     </div>
   );

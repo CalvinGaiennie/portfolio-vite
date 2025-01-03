@@ -5,8 +5,7 @@ function Introduction() {
     <div className={styles.introduction}>
       <div className={styles.basicInfo}>
         <h1>Calvin Gaiennie</h1>
-        <p>Software Developer. </p>
-        <p>Lafayette, Louisiana</p>
+        <p>23-year-old Software Developer from Lafayette, Lousisana 🇺🇸 </p>
         <div className={styles.links}>
           <a
             href="/CalvinGaiennie_Resume_11-24-24.pdf"
