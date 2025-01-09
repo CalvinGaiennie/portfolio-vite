@@ -26,11 +26,15 @@ function CurrentWork() {
       </p>
       <p>Add photos of projects.</p>
       <p>Replace Intro Photo</p>
-      {/* <h2>Overarching Goal</h2>
-      <p>
-        Improve the quality of the projects on this site and broaden my software
-        engineering abilities.
-      </p> */}
+      {/* <div>
+        <h2>Projects I want here</h2>
+        <p>A few advanced React Projects (semi done)</p>
+        <p>An AI Project</p>
+        <p>An couple angular projects</p>
+        <p>multiple interesting full stack projects</p>
+        <p>C# projects</p>
+        <p>Python Projects</p>
+      </div> */}
       <GithubContributions />
     </div>
   );
