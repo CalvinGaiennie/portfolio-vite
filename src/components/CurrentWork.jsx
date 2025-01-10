@@ -35,6 +35,16 @@ function CurrentWork() {
         <p>C# projects</p>
         <p>Python Projects</p>
       </div> */}
+      <div>
+        <h2>project specifics</h2>
+        <p>
+          When i add backend to the music app I want to allow users to add and
+          delete their own custom scales and chords but not to be able to delete
+          anything from the main database. I also want to allow them to add
+          their own songs to the ear trainer but only be able to delete songs
+          they add not the standard ones or ones other people submit
+        </p>
+      </div>
       <GithubContributions />
     </div>
   );
