@@ -1,9 +1,9 @@
 import styles from "./ProjectCard.module.css";
-
+import PhotoScroller from "./PhotoScroller";
 function ProjectCard({
   title,
   description,
-  image,
+  images,
   link,
   status,
   hostingStatus,
@@ -13,13 +13,7 @@ function ProjectCard({
   return (
     <div className={styles.projectCard}>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        {image && (
-          <img
-            src={image}
-            alt="Project Image"
-            className={styles.projectImage}
-          />
-        )}
+        {images && <PhotoScroller photos={images} />}
         <h3>{title}</h3>
         <p>{description}</p>
         {todo ? (
