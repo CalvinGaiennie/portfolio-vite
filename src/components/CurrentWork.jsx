@@ -4,22 +4,12 @@ function CurrentWork() {
   return (
     <div>
       <h1>Current Work</h1>
-      <h2>Here&#39;s what I&#39;m Currently Working On</h2>
+      {/* <h2>Here&#39;s what I&#39;m Currently Working On</h2>
       <p>
-        Doing a{" "}
-        <a
-          href="https://www.udemy.com/course/master-neural-networks-build-with-javascript-and-react/?couponCode=NEWYEARCAREER"
-          target="_blank"
-        >
-          Udemy Course
-        </a>{" "}
-        on Neural Networks.
-      </p>
-      <p>
-        When I finish the course I am planning to build a similar project on my
-        own and include it here.
-      </p>
-      <h2>Other To Do&#39;s</h2>
+        I am working as a full time software development intern and working on
+        projects in my free time.
+      </p> */}
+      <h2>To Do&#39;s</h2>
       <p>
         Complete some full stack projects in other core languages and take off
         the simple and boring ones.
@@ -36,7 +26,7 @@ function CurrentWork() {
         <p>Python Projects</p>
       </div> */}
       <div>
-        <h2>project specifics</h2>
+        <h2>Project Specifics</h2>
         <p>
           When i add backend to the music app I want to allow users to add and
           delete their own custom scales and chords but not to be able to delete
