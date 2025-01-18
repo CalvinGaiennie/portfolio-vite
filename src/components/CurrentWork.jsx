@@ -11,8 +11,8 @@ function CurrentWork() {
       </p> */}
       <h2>To Do&#39;s</h2>
       <p>
-        Complete some full stack projects in other core languages and take off
-        the simple and boring ones.
+        Add backend to existing projects. Complete projects in other core
+        languages and take off the simple and boring ones.
       </p>
       <p>Add photos of projects.</p>
       <p>Replace Intro Photo</p>
@@ -25,6 +25,16 @@ function CurrentWork() {
         <p>C# projects</p>
         <p>Python Projects</p>
       </div> */}
+      <div>
+        <h2>Projects I want Here</h2>
+        <p>Music App</p>
+        <p>Games App</p>
+        <p>Order checking App</p>
+        <p>At least one Angular Project</p>
+        <p>At least one tensor Flow Project</p>
+        <p>At least one C# project</p>
+        <p>Maybe a python project</p>
+      </div>
       <div>
         <h2>Project Specifics</h2>
         <p>
