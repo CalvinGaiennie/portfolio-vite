@@ -50,7 +50,7 @@ function Projects() {
           techStack={["React"]}
           todo={""}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title={"FetchMoreKennels Landing Page"}
           description={"I am building a website for my cousin's  business."}
           // img={projectImage}
@@ -59,7 +59,7 @@ function Projects() {
           hostingStatus={"Live"}
           techStack={["React"]}
           todo={""}
-        />
+        /> */}
         <ProjectCard
           title={"Learn Blackjack"}
           description={
@@ -86,7 +86,7 @@ function Projects() {
           techStack={["React"]}
           todo={"Add backend to allow users to add their own recipes."}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title={"Music Resources Vanilla JS (Origional Version)"}
           description={
             "A website containing resources for musicians and some basic lessons for guitar players."
@@ -97,7 +97,7 @@ function Projects() {
           techStack={["Javascript", "HTML", "CSS"]}
           // img={projectImage}
           todo={""}
-        />
+        /> */}
       </div>
     </div>
   );
