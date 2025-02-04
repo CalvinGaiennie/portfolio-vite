@@ -15,7 +15,8 @@ function Technologies() {
             <TechnologyCard name="HTML" imgSRC="/imgs/html.webp" />
             <TechnologyCard name="CSS" imgSRC="/imgs/css.png" />
             {/* <TechnologyCard name="NodeJS" imgSRC="/imgs/nodejs.webp" />
-            <TechnologyCard name="MongoDB" imgSRC="/imgs/mongodb.png" /> */}
+             */}
+            {/* <TechnologyCard name="MongoDB" imgSRC="/imgs/mongodb.png" /> */}
           </div>
         </div>
       </div>
