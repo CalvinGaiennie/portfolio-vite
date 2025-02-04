@@ -50,16 +50,6 @@ function Projects() {
           techStack={["React"]}
           todo={""}
         />
-        {/* <ProjectCard
-          title={"FetchMoreKennels Landing Page"}
-          description={"I am building a website for my cousin's  business."}
-          // img={projectImage}
-          status={"In Progress"}
-          link={"https://fetchmorekennels.netlify.app/"}
-          hostingStatus={"Live"}
-          techStack={["React"]}
-          todo={""}
-        /> */}
         <ProjectCard
           title={"Learn Blackjack"}
           description={
@@ -75,29 +65,19 @@ function Projects() {
           }
         />
         <ProjectCard
-          title={"Recipe Sharer v.1"}
+          title={"Recipe Sharer V.2"}
           description={
             "An app that allows users to input and store recipes, and then recalculate them based on the number of desired servings. "
           }
           // img={projectImage}
-          link={"https://cgrecipes.netlify.app/"}
+          link={"https://vite-recipes-v2.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React"]}
-          todo={"Add backend to allow users to add their own recipes."}
-        />
-        {/* <ProjectCard
-          title={"Music Resources Vanilla JS (Origional Version)"}
-          description={
-            "A website containing resources for musicians and some basic lessons for guitar players."
+          techStack={["React, MongoDB"]}
+          todo={
+            "Add in some recipes. The ability to login and edit recipes that you wrote and make the frontend prettier."
           }
-          link={"https://cgmusic.netlify.app/"}
-          status={"Project Defunct"}
-          hostingStatus={"Live"}
-          techStack={["Javascript", "HTML", "CSS"]}
-          // img={projectImage}
-          todo={""}
-        /> */}
+        />
       </div>
     </div>
   );
