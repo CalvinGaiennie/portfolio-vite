@@ -51,18 +51,13 @@ function Projects() {
           todo={""}
         />
         <ProjectCard
-          title={"Learn Blackjack"}
-          description={
-            "A simple blackjack game that allows you to see what move perfect strategy would recommend, allowing the user to learn perfect strategy while activly playing the game."
-          }
-          link={"https://learn-blackjack.netlify.app/"}
+          title={"CG Games"}
+          description={"Some games I am trying to replicate."}
+          link={"https://crggames.netlify.app/"}
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React"]}
-          todo={
-            "Add in the strategy suggestions and fix the functionality for aces."
-          }
         />
         <ProjectCard
           title={"Recipe Sharer V.2"}
