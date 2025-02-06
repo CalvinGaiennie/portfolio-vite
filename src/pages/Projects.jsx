@@ -38,18 +38,6 @@ function Projects() {
           // img={projectImage}
           todo={""}
         />
-
-        <ProjectCard
-          title={"This Portfolio"}
-          description={
-            "This portfolio is a project that I am using to showcase my skills and projects."
-          }
-          // img={projectImage}
-          status={"In Progress"}
-          hostingStatus={"Live"}
-          techStack={["React"]}
-          todo={""}
-        />
         <ProjectCard
           title={"CG Games"}
           description={"Some games I am trying to replicate."}
@@ -72,6 +60,17 @@ function Projects() {
           todo={
             "Add in some recipes. The ability to login and edit recipes that you wrote and make the frontend prettier."
           }
+        />
+        <ProjectCard
+          title={"This Portfolio"}
+          description={
+            "This portfolio is a project that I am using to showcase my skills and projects."
+          }
+          // img={projectImage}
+          status={"In Progress"}
+          hostingStatus={"Live"}
+          techStack={["React"]}
+          todo={""}
         />
       </div>
     </div>
