@@ -13,6 +13,7 @@ function Projects() {
           description={
             "A full stack application that allows users to report the quality or orders and allows adminstrators to view quality as well as performance of the quality control team over time."
           }
+          link={"https://cgcheckingreports.netlify.app/"}
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Not Yet Hosted"}
@@ -79,10 +80,3 @@ function Projects() {
 
 export default Projects;
 Projects;
-
-{
-  /*
-  https://cgmusic.netlify.app/
-  https://learn-blackjack.netlify.app/
-  */
-}
