@@ -56,7 +56,7 @@ function Projects() {
           link={"https://vite-recipes-v2.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React, MongoDB"]}
+          techStack={["React", "MongoDB"]}
           todo={
             "Add in some recipes. The ability to login and edit recipes that you wrote and make the frontend prettier."
           }
