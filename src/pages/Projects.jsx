@@ -16,15 +16,8 @@ function Projects() {
           link={"https://cgcheckingreports.netlify.app/"}
           // img={projectImage}
           status={"In Progress"}
-          hostingStatus={"Not Yet Hosted"}
-          techStack={[
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "Node.js",
-            "Express",
-            "MongoDB",
-          ]}
+          hostingStatus={"Live"}
+          techStack={["React", "Bootstrap", "MongoDB", "Node.js", "Express"]}
           todo={"Fix the backend and get it hosted."}
         />
         <ProjectCard
@@ -57,7 +50,7 @@ function Projects() {
           link={"https://vite-recipes-v2.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "MongoDB"]}
+          techStack={["React", "Bootstrap", "MongoDB", "Node.js", "Express"]}
           todo={
             "Add in some recipes. The ability to login and edit recipes that you wrote and make the frontend prettier."
           }
