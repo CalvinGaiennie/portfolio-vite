@@ -5,7 +5,7 @@ function Current() {
   return (
     <div>
       <PageNav />
-      <CurrentWork />
+      {/* <CurrentWork /> It is wrong */}
     </div>
   );
 }
