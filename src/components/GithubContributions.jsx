@@ -2,7 +2,7 @@ import { useState } from "react";
 import CommitsPage from "./CommitsPage";
 
 function GithubContributions() {
-  const [commitsPageActive, setCommitsPageActive] = useState(false);
+  // const [commitsPageActive, setCommitsPageActive] = useState(false);
   return (
     <div>
       <h2>Recent Github Contributions</h2>
