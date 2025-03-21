@@ -15,4 +15,5 @@ function GithubContributions() {
   );
 }
 
+//test to see if this will fix the issue of some days not showing their commits
 export default GithubContributions;
