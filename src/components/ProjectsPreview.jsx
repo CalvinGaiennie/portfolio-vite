@@ -20,7 +20,7 @@ function ProjectsPreview() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "Bootstrap", "MongoDB", "Node.js", "Express"]}
+          techStack={["React", "Bootstrap", "MongoDB", "Node.js"]}
           todo={"Fix the backend and get it hosted."}
         />
         <ProjectCard

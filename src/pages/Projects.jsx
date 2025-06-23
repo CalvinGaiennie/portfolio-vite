@@ -17,8 +17,8 @@ function Projects() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "Bootstrap", "MongoDB", "Node.js", "Express"]}
-          todo={"Fix the backend and get it hosted."}
+          techStack={["React", "Bootstrap", "MongoDB", "Node.js"]}
+          todo={"Allow users to submit reports and add other features."}
         />
         <ProjectCard
           title={"Music Resources"}
@@ -50,7 +50,7 @@ function Projects() {
           link={"https://vite-recipes-v2.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "Bootstrap", "MongoDB", "Node.js", "Express"]}
+          techStack={["React", "Bootstrap", "MongoDB", "Node.js"]}
           todo={
             "Add in some recipes. The ability to login and edit recipes that you wrote and make the frontend prettier."
           }
