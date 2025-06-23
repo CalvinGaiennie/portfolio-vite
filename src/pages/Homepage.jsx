@@ -10,7 +10,6 @@ function Homepage() {
       <PageNav />
       <Introduction />
       <Experience />
-      {/* once onboarding is done I will ship this feature. */}
       <ProjectsPreview />
       <Technologies />
     </div>

@@ -11,7 +11,7 @@ function Work() {
             position={"Software Developer Intern"}
             institution={"Veris Global"}
             location={"Lafaytette, LA (onsite)"}
-            time={"January 2025 - Current"}
+            time={"January 2025 - May 2025"}
             logo="/imgs/veris_global_logo.jpeg"
           />
         }
