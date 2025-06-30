@@ -1,14 +1,17 @@
 .introduction {
-  padding-bottom: 2rem;
+  padding-bottom: var(--spacing-md);
   display: flex;
-  gap: 10vw;
+  gap: clamp(2rem, 5vw, 10vw);
+  align-items: center;
 }
 
 .links {
   display: flex;
-  gap: 1rem;
-  padding: 1rem 0;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) 0;
+  flex-wrap: wrap;
 }
+
 .resume {
   display: flex;
   align-items: center;
@@ -19,9 +22,27 @@
   border: 1px solid grey;
   border-radius: 5px;
   justify-content: center;
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
 }
 
 .img {
   height: 30px;
-  width: auto;
+  width: 30px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-md);
+  }
+
+  .introduction img {
+    width: 250px !important;
+  }
+
+  .links {
+    justify-content: center;
+  }
 }

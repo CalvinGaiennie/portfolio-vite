@@ -4,8 +4,8 @@
 }
 
 .photo {
-  width: 300px;
-  height: fit-content;
+  width: min(300px, 90vw);
+  height: auto;
 }
 
 .button {
@@ -27,4 +27,19 @@
 
 .nextButton {
   right: 10px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 18px;
+    padding: 6px 8px;
+  }
+
+  .previousButton {
+    left: 5px;
+  }
+
+  .nextButton {
+    right: 5px;
+  }
 }

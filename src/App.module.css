@@ -1,8 +1,7 @@
 .app {
-  max-width: 750px;
+  max-width: min(750px, 95vw);
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: var(--spacing-sm);
   width: 100%;
   box-sizing: border-box;
 }

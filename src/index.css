@@ -26,6 +26,17 @@
   --fw-medium: 500;
   --fw-semibold: 600;
   --fw-bold: 700;
+
+  /* Breakpoints */
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1024px;
+
+  /* Responsive spacing */
+  --spacing-xs: clamp(0.5rem, 2vw, 1rem);
+  --spacing-sm: clamp(1rem, 3vw, 1.5rem);
+  --spacing-md: clamp(1.5rem, 4vw, 2rem);
+  --spacing-lg: clamp(2rem, 5vw, 3rem);
 }
 
 /* Base styles */
@@ -48,16 +59,16 @@ h6 {
 }
 
 h1 {
-  font-size: var(--fs-4xl);
+  font-size: clamp(2rem, 5vw, var(--fs-4xl));
 }
 h2 {
-  font-size: var(--fs-3xl);
+  font-size: clamp(1.5rem, 4vw, var(--fs-3xl));
 }
 h3 {
-  font-size: var(--fs-2xl);
+  font-size: clamp(1.25rem, 3vw, var(--fs-2xl));
 }
 h4 {
-  font-size: var(--fs-xl);
+  font-size: clamp(1rem, 2.5vw, var(--fs-xl));
 }
 
 :root {
