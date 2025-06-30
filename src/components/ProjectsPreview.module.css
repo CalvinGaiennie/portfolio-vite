@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.projectsPreviewHeaderTitle {
+  padding-top: 1rem;
+}
+
 @media (max-width: 768px) {
   .projectsPreview {
     grid-template-columns: 1fr;

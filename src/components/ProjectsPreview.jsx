@@ -5,7 +5,7 @@ function ProjectsPreview() {
   return (
     <div>
       <div className={styles.projectsPreviewHeader}>
-        <h1>Featured Projects</h1>
+        <h1 className={styles.projectsPreviewHeaderTitle}>Featured Projects</h1>
         <NavLink to="/Projects" className={styles.projectsPreviewLink}>
           View More
         </NavLink>
