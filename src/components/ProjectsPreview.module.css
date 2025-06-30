@@ -14,3 +14,20 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .projectsPreview {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .projectsPreviewHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .projectsPreviewLink {
+    padding-bottom: 0.5rem;
+  }
+}
