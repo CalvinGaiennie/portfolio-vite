@@ -12,16 +12,18 @@ function ProjectsPreview() {
       </div>
       <div className={styles.projectsPreview}>
         <ProjectCard
-          title={"Order Quality Reporting System"}
+          title={"Data Reporting and Analysis"}
           description={
-            "A full stack application that allows users to report the quality or orders and allows adminstrators to view quality as well as performance of the quality control team over time."
+            "A full stack application that combines the power of tools similar to google forms and excel pivot tables with a powerful admin page to allow for easy data reporting and analysis."
           }
           link={"https://cgcheckingreports.netlify.app/"}
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React", "Bootstrap", "MongoDB", "Node.js"]}
-          todo={"Fix the backend and get it hosted."}
+          todo={
+            "Address minor bugs, expand admin capabilites and improve styling."
+          }
         />
         <ProjectCard
           title={"Music Resources"}

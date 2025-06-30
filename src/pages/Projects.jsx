@@ -9,16 +9,18 @@ function Projects() {
       <h1>Projects</h1>
       <div className={styles.projectsDiv}>
         <ProjectCard
-          title={"Order Quality Reporting System"}
+          title={"Data Reporting and Analysis"}
           description={
-            "A full stack application that allows users to report the quality or orders and allows adminstrators to view quality as well as performance of the quality control team over time."
+            "A full stack application that combines the power of tools similar to google forms and excel pivot tables with a powerful admin page to allow for easy data reporting and analysis."
           }
           link={"https://cgcheckingreports.netlify.app/"}
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React", "Bootstrap", "MongoDB", "Node.js"]}
-          todo={"Allow users to submit reports and add other features."}
+          todo={
+            "Address minor bugs, expand admin capabilites and improve styling."
+          }
         />
         <ProjectCard
           title={"Music Resources"}
