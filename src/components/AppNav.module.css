@@ -1,6 +1,7 @@
 .nav {
   border-radius: 7px;
   border: 1px solid grey;
+  padding-top: 1rem;
 }
 
 .nav ul {
@@ -31,4 +32,11 @@
 
 .nav li {
   padding: 0.1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .nav a:link,
+  .nav a:visited {
+    padding: 0.5rem 0.5rem;
+  }
 }
