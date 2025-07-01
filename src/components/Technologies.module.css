@@ -1,5 +1,38 @@
 .flex {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: clamp(1rem, 3vw, 20px);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technologiesHeaderTitle {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.techTable {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+}
+
+.techRow {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 20px);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .techRow {
+    gap: var(--spacing-sm);
+  }
 }

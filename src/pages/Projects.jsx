@@ -34,7 +34,7 @@ function Projects() {
           // img={projectImage}
           todo={""}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title={"CG Games"}
           description={"Some games I am trying to replicate."}
           link={"https://crggames.netlify.app/"}
@@ -56,7 +56,7 @@ function Projects() {
           todo={
             "Add in some recipes. The ability to login and edit recipes that you wrote and make the frontend prettier."
           }
-        />
+        /> */}
         <ProjectCard
           title={"This Portfolio"}
           description={
