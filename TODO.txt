@@ -1,5 +1,5 @@
 look further into semantic versioning
-fix styling on technology table 
+fix styling on technology table !!!!
 
 
 https://www.singharaj.com/
