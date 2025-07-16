@@ -30,13 +30,10 @@ function ProjectsPreview() {
           description={
             "A website containing resources for musicians and some basic lessons for guitar players."
           }
-          link={"https://cgmusicv2.netlify.app/"}
+          link={"https://cgmusic.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React"]}
-          todo={
-            "Currently working on an entire rebuild using typescript .NET Core and SQL Server"
-          }
           // img={projectImage}
         />
       </div>
