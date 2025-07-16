@@ -31,8 +31,10 @@ function Projects() {
           status={"In Progress"}
           hostingStatus={"Live"}
           techStack={["React"]}
+          todo={
+            "Currently working on an entire rebuild using typescript .NET Core and SQL Server"
+          }
           // img={projectImage}
-          todo={""}
         />
         {/* <ProjectCard
           title={"CG Games"}
