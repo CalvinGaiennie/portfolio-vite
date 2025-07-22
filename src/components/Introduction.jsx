@@ -8,7 +8,7 @@ function Introduction() {
         <p>24-year-old Full Stack Developer from Lafayette, Lousisana 🇺🇸 </p>
         <div className={styles.links}>
           <a
-            href="/Resume.pdf"
+            href="/CalvinsResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resume}
