@@ -29,7 +29,7 @@ function Projects() {
           }
           link={"https://cgmusic.netlify.app/"}
           status={"In Progress"}
-          hostingStatus={"Live"}
+          hostingStatus={"Frontend Live"}
           techStack={["React"]}
           // img={projectImage}
         />
