@@ -33,7 +33,15 @@ function ProjectsPreview() {
           link={"https://cgmusic.netlify.app/"}
           status={"In Progress"}
           hostingStatus={"Frontend Live"}
-          techStack={["React"]}
+          techStack={[
+            "React",
+            "Bootstrap",
+            "TypeScript",
+            "C#",
+            "ASP.NETCore",
+            "Dapper",
+            "SQL",
+          ]}
           // img={projectImage}
         />
       </div>
