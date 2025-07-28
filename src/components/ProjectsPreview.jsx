@@ -20,7 +20,7 @@ function ProjectsPreview() {
           // img={projectImage}
           status={"In Progress"}
           hostingStatus={"Live"}
-          techStack={["React", "Bootstrap", "MongoDB", "Node.js"]}
+          techStack={["React", "Bootstrap", "MongoDB", "Node.js", "Express"]}
           todo={
             "Address minor bugs, expand admin capabilites and improve styling."
           }
