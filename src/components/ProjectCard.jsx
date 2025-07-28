@@ -47,6 +47,11 @@ function ProjectCard({
             {hostingStatus}
           </p>
         </div>
+        {title !== "This Portfolio" && (
+          <div className={styles.linkIndicator}>
+            <span>Visit Project →</span>
+          </div>
+        )}
       </a>
     </div>
   );
