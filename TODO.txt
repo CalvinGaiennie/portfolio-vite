@@ -23,3 +23,5 @@ Quill
 Websockets
 
 OAuth Connection to Plaid
+
+add individual project pages with all the links and information when clicked
