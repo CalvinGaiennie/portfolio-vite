@@ -4,3 +4,22 @@ fix styling on technology table !!!!
 
 
 https://www.singharaj.com/
+
+
+Work on AWS Cert
+
+explore
+Open AI API 
+hugging face
+D3.js 
+Auth0
+stripe
+google login 
+PWA
+Testing
+Accessability
+SEO Optimization
+Quill
+Websockets
+
+OAuth Connection to Plaid
