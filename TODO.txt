@@ -26,5 +26,14 @@ OAuth Connection to Plaid
 
 add individual project pages with all the links and information when clicked
 
+make my projects super fast and secure
 
 garage gym availability app
+
+create dev branches and dbs for my projects
+
+get good at UI/UX
+
+build a daw in c++
+
+build a mobile app
