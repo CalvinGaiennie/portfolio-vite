@@ -37,3 +37,5 @@ get good at UI/UX
 build a daw in c++
 
 build a mobile app
+
+get really good at regex and build a project to show it off
