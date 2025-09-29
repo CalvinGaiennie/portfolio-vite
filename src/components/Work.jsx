@@ -7,13 +7,22 @@ function Work() {
       <Timeline
         title="Work"
         content={
-          <EventCard
-            position={"Software Developer Intern"}
-            institution={"Veris Global"}
-            location={"Lafaytette, LA (onsite)"}
-            time={"January 2025 - May 2025"}
-            logo="/imgs/veris_global_logo.jpeg"
-          />
+          <>
+            <EventCard
+              position={"Full Stack Developer"}
+              institution={"Picture Pros Photography"}
+              location={"Lafaytette, LA (onsite)"}
+              time={"August 2025 - Present"}
+              logo="/imgs/images.png"
+            />
+            <EventCard
+              position={"Software Developer Intern"}
+              institution={"Veris Global"}
+              location={"Lafaytette, LA (onsite)"}
+              time={"January 2025 - May 2025"}
+              logo="/imgs/veris_global_logo.jpeg"
+            />
+          </>
         }
       />
     </div>
