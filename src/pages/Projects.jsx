@@ -23,6 +23,20 @@ function Projects() {
           }
         />
         <ProjectCard
+          title={"Habit Tracker"}
+          description={
+            "One place to track your, habits, goals, workouts, and diet simply, with great analytics."
+          }
+          link={"https://cghabittracker.netlify.app/"}
+          // img={projectImage}
+          status={"In Progress"}
+          hostingStatus={"Live"}
+          techStack={["React", "Bootstrap", "PostgreSQL","Python"]}
+          todo={
+            ""
+          }
+        />
+        <ProjectCard
           title={"Music Resources"}
           description={
             "A website containing resources for musicians and some basic lessons for guitar players."
