@@ -1,7 +1,8 @@
 .nav {
   border-radius: 7px;
-  border: 1px solid grey;
+  border: 1px solid var(--border-light);
   padding-top: 1rem;
+  box-shadow: var(--shadow-subtle);
 }
 
 .nav ul {

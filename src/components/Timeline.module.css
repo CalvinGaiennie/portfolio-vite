@@ -1,12 +1,13 @@
 .title {
   text-align: center;
-  border-bottom: 1px solid var(--text-secondary);
+  border-bottom: 1px solid var(--border-light);
   padding: 1rem;
 }
 
 .timeline {
   margin-top: 1rem;
-  border: 1px solid var(--text-secondary);
+  border: 1px solid var(--border-light);
   padding: 1rem;
   border-radius: 0.5rem;
+  box-shadow: var(--shadow-subtle);
 }

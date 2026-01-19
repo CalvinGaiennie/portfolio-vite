@@ -83,6 +83,11 @@ h4 {
   --green: #45b649;
   --yellow: #ffd747;
   --red: #e64444;
+
+  /* Borders and Shadows */
+  --border-light: rgba(0, 0, 0, 0.18);
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Base styles */
