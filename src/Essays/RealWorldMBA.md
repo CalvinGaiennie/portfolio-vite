@@ -46,8 +46,6 @@ This was the first time in my life I was excited to study. I would plan projects
 
 I would leave work, go to my favorite coffee shop, study until close, go home, go straight to bed, then wake up and either go to work or go straight back to Jet for a morning study session. I worked out a lot, played a lot of guitar, and never missed an event with my friends, but I spent the majority of my time writing code.
 
-## The Breaking Point
-
 The job was slow and a couple months in I got fed up sitting around half the time and decided to quit. I had just applied to my first internship and grad school, and I decided that if I didn't get into one of them I was going to start treating studying like a full time job. 9-5 at the coffee shop—studying, building, and applying to jobs until I got something.
 
 At this point I knew my first Javascript framework and I was done playing around. It was time to bite down on the bit and really put some time in. I planned to quit my job at the end of my next shift.
