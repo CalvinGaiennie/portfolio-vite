@@ -1,0 +1,84 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.coverImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-light, 0 2px 8px rgba(0, 0, 0, 0.1));
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--text-secondary, #666);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: var(--accent-color, #007bff);
+}
+
+.article {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.article h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.article h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.article p {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary, #444);
+}
+
+.article em {
+  font-style: italic;
+}
+
+.article strong {
+  font-weight: 600;
+}
+
+.article a {
+  color: var(--accent-color, #007bff);
+  text-decoration: underline;
+}
+
+.article a:hover {
+  text-decoration: none;
+}
+
+.article ul,
+.article ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.article li {
+  margin-bottom: 0.5rem;
+}
+
+.article blockquote {
+  border-left: 3px solid var(--border-light, #ddd);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--text-muted, #666);
+}

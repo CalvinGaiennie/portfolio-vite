@@ -8,7 +8,10 @@ function PageNav() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/Projects">Projects</NavLink>
+          <NavLink to="/essays">Essays</NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>{/* <NavLink to="/Current">Current Work</NavLink> */}</li>
       </ul>
